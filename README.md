@@ -28,6 +28,7 @@ git clone https://github.com/dondfx/attiny85-toothbrush.git
 cd attiny85-toothbrush
 platformio run             # builds firmware.hex
 platformio run -t upload   # flash with USBtinyISP
+```
 
 ```text
 LFUSE 0xE2   HFUSE 0xD7   EFUSE 0xFF
