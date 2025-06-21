@@ -29,7 +29,7 @@ git checkout -b feature/your-feature-name
 
 Follow the structure and coding style already used in src/ and include/.
 
-###5. Test Your Changes
+### 5. Test Your Changes
 
 Ensure the code still builds:
 
