@@ -14,8 +14,8 @@ This document outlines the key components required to assemble the ATtiny85-base
 | 6     | R4               | 10 kΩ                   | Pull-down resistor for MOSFET gate       | 0805 (2012 metric)                   |
 | 7     | C1               | 100 nF                  | Debounce capacitor for push button       | 0805 (2012 metric)                   |
 | 8     | C2               | 100 nF                  | Flyback suppression capacitor            | 0805 (2012 metric)                   |
-| 9     | Push Button      | SPST                    | Momentary tactile push-button            | Correct (as per schematic)           |
-| 10    | Motor            | 5V DC Motor             | Small brushed DC motor                   | Correct (as per schematic)           |
+| 9     | Push Button      | SPST                    | Momentary tactile push-button            | Mounted Seperately                   |
+| 10    | Motor            | 5V DC Motor             | Small brushed DC motor                   | Cylindrical can-type / wire mount    |
 
 ---
 
