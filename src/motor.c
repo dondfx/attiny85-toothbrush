@@ -11,11 +11,11 @@ void motor_init(void)
     /* PB0 = OC0A output */
     DDRB  |= (1 << MOTOR_PIN);
 
-    /* Timer0: Phase-correct PWM, non-inverting on OC0A, prescaler 1 -> ~8 kHz */
+    /* Timer0: Phase-correct PWM, non-inverting on OC0A, prescaler 1 -> ~16 kHz */
     TCCR0A = (1 << COM0A1) | (1 << WGM00);
     TCCR0B = (1 << CS00);
 
-    OCR0A  = 0;                 /* motor off */
+    OCR0A  = 0; /* motor off */
 }
 
 void motor_set_speed(uint8_t level)
