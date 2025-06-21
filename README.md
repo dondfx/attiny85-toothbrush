@@ -30,14 +30,27 @@ platformio run             # builds firmware.hex
 platformio run -t upload   # flash with USBtinyISP
 ```
 
-```text
-LFUSE 0xE2   HFUSE 0xD7   EFUSE 0xFF
-```
+## 🔥 Fuse Settings
 
 ```text
-include/   headers  
-src/       drivers + main  
-.github/   (CI workflow will live here)  
-platformio.ini  
-docs/      screenshots & diagrams  
+LFUSE 0xE2   HFUSE 0xD7   EFUSE 0xFF
+
+To burn the fuses, use this command (replace -c usbtiny if you're using a different programmer):
+avrdude -p attiny85 -c usbtiny -U lfuse:w:0xE2:m -U hfuse:w:0xD7:m -U efuse:w:0xFF:m
+```
+
+## 📁 Project Structure
+
+```text
+attiny85-toothbrush/
+├── include/        → Header files (motor.h, button.h, power.h)
+├── src/            → Source code: drivers + main
+├── hardware/
+│   ├── gerbers/    → PCB manufacturing files
+│   ├── step/       → 3D STEP model of the PCB
+│   └── docs/       → Wiring diagram & connection info (PDF)
+├── .github/        → GitHub Actions CI workflow
+├── platformio.ini  → PlatformIO project config
+├── BOM.md          → Bill of Materials with footprints
+└── README.md       → This documentation 
 ```
