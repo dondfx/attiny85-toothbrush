@@ -1,6 +1,6 @@
 # ATtiny85 Toothbrush Firmware 🪥⚡
 
-![CI](https://github.com/dondfx/attiny85-toothbrush/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/dondfx/attiny85-toothbrush/actions/workflows/ci.yml/badge.svg?branch=main)
 
 > Bare-metal C firmware that turns an ATtiny85 into a three-speed  
 > electric-toothbrush controller.  

@@ -9,7 +9,7 @@
 
 /* -------- Behaviour tweaks -------- */
 #define PWM_LEVEL_COUNT  3
-#define LONG_PRESS_MS    2000U    /* ≥ → start / stop */
+#define LONG_PRESS_MS    2000U    /* >= -> start / stop */
 #define DEBOUNCE_MS      20U      /* button debounce */
 
 /* -------- External lookup -------- */
