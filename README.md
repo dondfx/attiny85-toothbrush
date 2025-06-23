@@ -2,10 +2,11 @@
 
 ![CI](https://github.com/dondfx/attiny85-toothbrush/actions/workflows/ci.yml/badge.svg?branch=main)
 
-<!-- <img src="hardware/docs/attiny85-toothbrush.png" alt="ATtiny85 Toothbrush Project" height="600"/> -->
+<p align="center>
+    <img src="hardware/docs/attiny85-toothbrush.png" alt="ATtiny85 Toothbrush Project" height="600"/>
+</p>
 
-> Bare-metal C firmware that turns an ATtiny85 into a three-speed  
-> electric-toothbrush controller.  
+> Bare-metal C firmware that turns an ATtiny85 into a three-speed electric-toothbrush controller.  
 > **Short press → cycle speeds · Long press → start / stop & ultra-low-power sleep**
 
 ---
