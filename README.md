@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/dondfx/attiny85-toothbrush/actions/workflows/ci.yml/badge.svg?branch=main)
 
-<p align="center>
+<p align="center">
     <img src="hardware/docs/attiny85-toothbrush.png" alt="ATtiny85 Toothbrush Project" height="600"/>
 </p>
 
