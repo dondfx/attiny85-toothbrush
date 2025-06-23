@@ -18,7 +18,7 @@
 | ⚙️ Deterministic PWM | Phase-correct 8-bit PWM via Timer0 (~16 kHz) for smooth motor control |
 | 🚀 Three Speed Levels | Lookup table for 100%, 66%, and 33% motor duty cycles              |
 | 🖲️ One-Button UI     | INT0-based ISR distinguishes between short and long presses        |
-| 🔋 Ultra-Low Power   | \< 2 µA in `SLEEP_MODE_PWR_DOWN` mode for long battery life         |
+| 🔋 Ultra-Low Power   | \< 5 µA in `SLEEP_MODE_PWR_DOWN` mode for long battery life         |
 | 🧩 Modular Drivers   | Clean, decoupled APIs for `motor`, `button`, and `power` subsystems |
 | 🔄 Continuous Build  | GitHub Actions CI on every push to `main`                          |
 
