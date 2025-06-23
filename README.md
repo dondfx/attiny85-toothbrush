@@ -26,9 +26,7 @@
 
 ## 📦 Overview
 
-This project is a minimal but robust firmware for DIY or commercial electric toothbrush designs.  
-It emphasizes **low power consumption**, **predictable timing**, and **user-friendly control**,  
-while sticking to **bare-metal C** for full control over performance and size.
+This project is a minimal but robust firmware for DIY or commercial electric toothbrush designs. It emphasizes **low power consumption**, **predictable timing**, and **user-friendly control**, while sticking to **bare-metal C** for full control over performance and size.
 
 Ideal for:
 
