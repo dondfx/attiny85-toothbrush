@@ -90,7 +90,9 @@ attiny85-toothbrush/
 ## 🧪 Status
 
 ✅ Stable & tested on breadboard and custom PCB
+
 ✅ < 5 µA sleep current
+
 🔄 Future: H-bridge motor driver support (e.g., DRV8833)
 
 ---
